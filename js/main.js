@@ -1,23 +1,18 @@
 $(document).ready(function(){
 var myNavBar = {
-
     flagAdd: true,
-
     elements: [],
-
     init: function (elements) {
         this.elements = elements;
     },
-
     add : function() {
         if(this.flagAdd) {
             for(var i=0; i < this.elements.length; i++) {
-                document.getElementById(this.elements[i]).className += " fixed-theme";
+              document.getElementById(this.elements[i]).className += " fixed-theme";
             }
             this.flagAdd = false;
         }
     },
-
     remove: function() {
         for(var i=0; i < this.elements.length; i++) {
             document.getElementById(this.elements[i]).className =
@@ -25,7 +20,6 @@ var myNavBar = {
         }
         this.flagAdd = true;
     }
-
 };
 
 myNavBar.init(  [
@@ -40,10 +34,12 @@ function offSetManager(){
     var currYOffSet = window.pageYOffset;
 
     if(yOffset < currYOffSet) {
-        myNavBar.add();
+      myNavBar.add();
+      $("#header").css("position", "fixed");
     }
     else if(currYOffSet == yOffset){
-        myNavBar.remove();
+      myNavBar.remove();
+      $("#header").css("position", "relative");
     }
 
 }
