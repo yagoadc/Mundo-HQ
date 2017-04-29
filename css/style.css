@@ -1,0 +1,22 @@
+/* BEGIN CONFIG MAIN */
+*{font-family:'Fjalla One', sans-serif;}
+body {margin:0px; padding:0px;background-repeat:no-repeat;background-size: cover;}
+/* END CONFIG MAIN */
+
+/* BEGIN NAVBAR */
+.navbar-brand {font-size: 24px;}
+.navbar-container {padding: 20px 0 20px 0;}
+.navbar.navbar-fixed-top.fixed-theme{background-color: #222;border-color: #080808;box-shadow: 0 0 5px rgba(0,0,0,.8);}
+.navbar-brand.fixed-theme{font-size: 18px;}
+.navbar-container.fixed-theme{padding: 0;}
+.navbar-brand.fixed-theme,.navbar-container.fixed-theme,.navbar.navbar-fixed-top.fixed-theme,.navbar-brand,.navbar-container{transition: 0.8s;-webkit-transition:  0.8s;}
+#header{background-color: rgba(226, 54, 54, 0.9);}
+.navbar-nav li a{color:#444;font-weight: 700;font-size:1.3em;transition-duration: 0.5s;}
+.navbar-nav li a:hover{text-decoration:none;background-color:transparent; font-size:2em;}
+#brand{color:#444;font-size: 2.5em;}
+/* END NAVBAR */
+
+/* BEGIN CONTAINER HOME */
+#entrada{position: absolute;top: 35%;left: 25%;text-align:center;color: #FFFAF5;}
+h1{font-size: 15em;font-weight: 800;text-shadow: 3px 3px 0 #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 6px 7px 2px #444;}
+/* END CONTAINER HOME*/
