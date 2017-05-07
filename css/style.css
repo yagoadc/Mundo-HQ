@@ -10,7 +10,7 @@ body {margin:0px; padding:0px;background-repeat:no-repeat;background-size: cover
 .navbar-brand.fixed-theme{font-size: 18px;}
 .navbar-container.fixed-theme{padding: 0;}
 .navbar-brand.fixed-theme,.navbar-container.fixed-theme,.navbar.navbar-fixed-top.fixed-theme,.navbar-brand,.navbar-container{transition: 0.8s;-webkit-transition:  0.8s;}
-#header{background-color: rgba(226, 54, 54, 0.9);position: relative;}
+#header{background-color: rgba(226, 54, 54, 0.9);position: relative;margin:0px;}
 .navbar-nav li a{color:#444;font-weight: 700;font-size:1.3em;transition-duration: 0.5s;}
 .navbar-nav li a:hover{text-decoration:none;background-color:transparent; font-size:2em;}
 #brand{color:#444;font-size: 2.5em;}
@@ -32,3 +32,21 @@ footer{background-color: #504a4a;}
 .text-center{height: 100px;padding-top: 25px;}
 .text-center a i{color: #e44949;}
 /*END FOOTER */
+
+/* BEGIN CONTAINER QUEM SOMOS */
+.main{width: 100%;margin: 0px;padding: 0px;}
+#principal{background-image:url('../img/heroi.png');height: 700px;background-repeat: no-repeat;background-size: 100% 700px;}
+#principal > p {text-align: center;position: relative;top: 50%;font-size: 5em;font-weight: 900;color: #d6cdcd;}
+#descricao{background-color: #504a4a;color: #d6cdcd;padding: 40px;}
+.titulo{text-align: center;font-size: 2em;}
+.text{font-size: 1.5em;text-align: center;}
+/* END CONTAINER QUEM SOMOS */
+/* BEGIN CARD */
+h5 {font-size: 1.28571429em;font-weight: 700;line-height: 1.2857em;margin: 0;}
+.card {font-size: 1em;text-align:center;overflow: hidden;padding: 0;margin:1%;border: none;border-radius: .28571429rem;box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;}
+.card-block {font-size: 1em;position: relative;margin: 0;padding: 1em;border: none;border-top: 1px solid rgba(34, 36, 38, .1);box-shadow: none;}
+.card-img-top {display: block;width: 50%;position: relative;left: 25%;margin: 5px;}
+.text-bold {font-weight: 700;}
+.mt-4{padding: 0px;}
+.row{margin-left: 0px !important;margin-right: 0px !important;}
+/* END CARD */

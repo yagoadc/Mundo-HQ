@@ -1,3 +1,4 @@
+// BEGIN NAVBAR
 $(document).ready(function(){
 var myNavBar = {
     flagAdd: true,
@@ -50,3 +51,4 @@ window.onscroll = function(e) {
 
 offSetManager();
 });
+// END NAVBAR
